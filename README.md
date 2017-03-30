@@ -1,8 +1,7 @@
 # Solve Cholera Jarvis
 
-![Banner]
 
-## ![English][English] English
+## English
 > Jarvis.sh is a lightweight configurable multi-lang jarvis-like bot.
 Meant for home automation running on slow computer (ex: Raspberry Pi 2 & 3).  
 It installs automatically speech recognition & synthesis engines of your choice.  
@@ -39,7 +38,7 @@ Compatible with any Linux distribution that has installed the tools needed. The 
  
 ### Supported Languages
 
-![English][English] English <br/>
+English <br/>
 
 We hope to support local language
 
