@@ -1,4 +1,4 @@
-# Jarvis [![Version-shield]](CHANGELOG.md) [![License-shield]](LICENSE.md)
+# Solve Cholera Jarvis
 
 ![Banner]
 
