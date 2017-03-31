@@ -347,7 +347,7 @@ wizard () {
     [ -f jarvis-commands ] || cp jarvis-commands-default jarvis-commands
     [ -f jarvis-events ] || cp jarvis-events-default jarvis-events
     
-    dialog_msg "Hello, my name is JARVIS, nice to meet you"
+    dialog_msg "Hello, my name is JARVIS, nice to meet you am here to support you with eHealth"
     configure "language"
 
     [ "$language" != "en_EN" ] && dialog_msg <<EOM
