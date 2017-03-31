@@ -1,0 +1,21 @@
+*Help*==jv_display_commands
+*Hello*|*Hi*|*SALUT*==say "Hi, how are you today $username?"
+*Am Okay*==say "Thats great to  hear"
+*How are you*==say "Don’t worry about me, am a robot, get it? haha!"
+*Cholera*==say "Welcome to Solve Cholera services, what can we do today?"
+>*Sick*==say "Please check if you have any of these symptoms"
+>>*Running Stomach*==say "Please call this number 0800-CHOLERA"
+>>*Vomiting*==say "Please call this number 0800-CHOLERA“
+>*I just wanna learn*|*learn*|*learning*==say "Okay, here is a quick information about cholera, ensure to check this link for documented data"
+*COMMENT*APPELLE*==say "Je m'appelle $trigger"
+*MERCI*==say "De rien"
+*AU REVOIR*|*BYE*==say "Au revoir $username"; jv_exit
+*WHAT ARE YOU DOING*==say "Chilling"
+ANNULE*|TERMINE*==bypass=false; say "Ok"
+ENCORE*==jv_repeat_last_command
+*TEST*==say "Ca fonctionne!"
+*VERSION*==say "Je suis en version $jv_version"
+*REPETE (*) ET (*)==say "(1) (2)"
+*CA VA*==say "Très bien et toi ça va?"
+>*OUI*==say "ravi de l'entendre"
+>*NON*==say "j'en suis navré"
