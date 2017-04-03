@@ -1,5 +1,3 @@
-
-
 jarvis-record.wav
 
 jarvis-events
@@ -32,7 +30,9 @@ hooks/program_startup
 
 *.DS_Store
 
-plugins/
+plugins/jarvis-kodi
+plugins/jarvis-music-player
+plugins/jarvis-weather-wunderground-fr
 
 plugins_order.txt
 
