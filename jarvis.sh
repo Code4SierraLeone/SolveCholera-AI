@@ -179,11 +179,8 @@ configure () {
         stop_listening)        editor hooks/$1;;
         start_speaking)        editor hooks/$1;;
         stop_speaking)         editor hooks/$1;;
-        language)              options=("de_DE (Deutsch)"
-                                        "en_GB (English)"
-                                        "es_ES (Español)"
-                                        "fr_FR (Français)"
-                                        "it_IT (Italiano)")
+        language)              options=("en_GB (English)"
+                                        "fr_FR (Français)")
                                language="$(dialog_select "Language" options[@] "$language")"
                                language="${language% *}" # "fr_FR (Français)" => "fr_FR"
                                ;;
@@ -401,15 +398,14 @@ EOM
 Congratulations! You can start using Jarvis
 Select Plugins to check out community commands
 Select Commands to add your own commands
-Full Documentation & support available at:
-http://domotiquefacile.fr/jarvis
+Full Documentation & support available:
 EOM
 }
 
 jv_start_in_background () {
     nohup ./jarvis.sh -n 2>&1 | jv_add_timestamps >> jarvis.log &
     cat <<EOM
-Jarvis has been launched in background
+Jarvis has been launched in background and can be triggered using the keyword
 
 To view Jarvis output:
 ./jarvis.sh and select "View output"
