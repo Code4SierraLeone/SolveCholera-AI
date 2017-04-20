@@ -344,7 +344,7 @@ wizard () {
     [ -f jarvis-commands ] || cp jarvis-commands-default jarvis-commands
     [ -f jarvis-events ] || cp jarvis-events-default jarvis-events
     
-    dialog_msg "Hello, my name is JARVIS, nice to meet you am here to support you with eHealth"
+    dialog_msg "Hello, my name is JARVIS your eHealth Assistant, nice to meet you am here to support you with eHealth"
     configure "language"
 
     [ "$language" != "en_EN" ] && dialog_msg <<EOM
@@ -369,7 +369,7 @@ EOM
             # use ' instead of " in dialog_msg
             dialog_msg <<EOM
 You can now record and train your own hotword within Jarvis
-Or you can immediately use the default universal hotword 'snowboy'
+Or you can immediately use the default universal hotword 'jarvis'
 EOM
            trigger="${trigger:-snowboy}"
         fi
