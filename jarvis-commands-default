@@ -5,9 +5,6 @@
 *AU REVOIR*|*BYE*==say "Au revoir $username"; jv_exit
 ANNULE*|TERMINE*==bypass=false; say "Ok"
 ENCORE*==jv_repeat_last_command
-*TEST*==say "Ca fonctionne!"
+*TEST*==say "We are all set"
 *VERSION*==say "Je suis en version $jv_version"
 *REPETE (*) ET (*)==say "(1) (2)"
-*CA VA*==say "Très bien et toi ça va?"
->*OUI*==say "ravi de l'entendre"
->*NON*|*PAS*==say "j'en suis navré"
