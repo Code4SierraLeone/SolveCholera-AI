@@ -7,8 +7,6 @@ jarvis-events
 jarvis.log
 .vscode
 
-config/
-
 stt_engines/snowboy/_snowboydetect.so
 
 stt_engines/snowboy/resources/
