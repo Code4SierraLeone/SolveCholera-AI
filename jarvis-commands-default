@@ -1,7 +1,7 @@
 *AIDE*==jv_display_commands
 *BONJOUR*|*SALUT*==say "Bonjour $username"
 *COMMENT*APPELLE*==say "Je m'appelle $trigger"
-*MERCI*==say "De rien"
+*Merci*==say "Always here to serve you"
 *AU REVOIR*|*BYE*==say "Au revoir $username"; jv_exit
 ANNULE*|TERMINE*==bypass=false; say "Ok"
 ENCORE*==jv_repeat_last_command
